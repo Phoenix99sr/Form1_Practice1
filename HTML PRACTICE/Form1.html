@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:rgba(71, 226, 154, 0.685);">
+    <h1 style="color: red; text-align:center">Form Number 1 Practice</h1>
+    <FORM action="./Thankyou.html" method="get">
+       <h3>
+        <label for="fname" style="text-align:left;">First Name :</label>
+        <input type="text" id="fname" name="fname">
+        <label for="mname" style="text-align:center;">Middle Name :</label>
+        <input type-="text" id="mname" name="mname">
+        <label for="lname" style="text-align: end;">Last Name :</label>
+        <input type-="text" id="lname" name="lname"><br><br>
+        <label for="dob" title="Select a date from the calender">Date Of Birth :</label>
+        <input type="date" name="dob" id="dob" value="dob"><br>
+        <p>Pick Your gender :<p>
+        </h3>
+        <input type="radio" name="gender" id="Male" value="Male">
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" id="female" value="Female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="others" value="Others">
+        <label for="others">Others</label>
+        <h3>Select Your Cast :</h3>
+            <label for="cast">General</label>
+            <input type="radio" name="cast" id="cast" value="GENERAL">
+            <label for="cast">SC</label>
+            <input type="radio" name="cast" id="cast" value="SC">
+            <label for="cast">ST</label>
+            <input type="radio" name="cast" id="cast" value="ST">
+            <label for="cast">OBC-A</label>
+            <input type="radio" name="cast" id="cast" value="OBC-A">
+            <label for="cast">OBC-B</label>
+            <input type="radio" name="cast" id="cast" value="OBC-B"><br><br>
+    <h3><label for="adress1">Adress Line 1 :</label>
+        <input type="text" id="adress1" name="adress1" size="40"><br><br>
+        <label for="adress2">Adress Line 2 :</label>
+        <input type="text" id="adress2" name="adress2" size="40"><br><br>
+        <label for="Pin">Pin Code :</label>
+        <input type="text" size="6" id="Pin" naame="Pin" maxlength="6"><br><br>
+        <label for="state">State :</label>   
+        <select name="states" id="state">
+            <option value="NewDelhi">New Delhi</option>
+            <option value="WestBengal">West Bengal</option>
+            <option value="Maharastra">Maharastra</option>
+            <option value="Tamilnadu">Tamil Nadu</option>
+            <option value="Odisha">Odisha</option>
+            <option value="Karnatak">Karnatak</option>                
+            <option value="Others">Others</option>                
+        </select><br><br>
+        <label for="conctno">Contact No :</label>
+        <input type="text" name="text" id="conctno" value="+91" maxlength="13"><br><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+    </h3>    
+       <h3>Select Your Qualification :</h3>
+        <label for="degree">Degree</label>
+        <input type="checkbox" name="degree" id="degree" value="degree"><br>
+        <label for="degree">Diploma</label>
+        <input type="checkbox" name="diploma" id="diploma" value="diploma"><br>
+        <label for="degree">Honours</label>
+        <input type="checkbox" name="honours" id="honours" value="honours"><br>
+        <label for="degree">Masters</label>
+        <input type="checkbox" name="masters" id="masters" value="masters"><br>
+        <label for="degree">Phd</label>
+        <input type="checkbox" name="Phd" id="Phd" value="Phd"><br><br>
+        <label for="pic">Upload Your Recent Photo :</label>
+        <input type="file" id="pic"><br>
+        <label for="sig">Upload Your Recent Signature :</label>
+        <input type="file" name="sig" id="sig"><br>
+        <label for="thumb">Upload Your Left Thumb Impression :</label>
+        <input type="file" name="thumb" id="thumb"><br>
+        <a href="https://prepp.in/news/e-496-ibps-rrb-photo-size-dimensions-format-and-other-details" target="_blank">Click here to see Instractions</a>
+        <hr>
+        <h3>Give a Detail about your Experience :</h3>
+        <textarea cols="30" rows="10" placeholder="write here"></textarea>
+        <h2 style="color:rgb(226, 43, 150);">Language Known :</h2>
+        <h2>Bengali</h2>
+            <label for="lang">Read</label>
+            <input type="radio" id="lang" name="read1" value="read1">
+            <label for="lang">write</label>
+            <input type="radio" id="lang" name="write1" value="write1">
+            <label for="lang">Speak</label>
+            <input type="radio" id="lang" name="speak1" value="speak1">
+        <h2>English</h2>
+            <label for="lang">Read</label>
+            <input type="radio" id="lang" name="read2" value="read2">
+            <label for="lang">write</label>
+            <input type="radio" id="lang" name="write2" value="write2">
+            <label for="lang">Speak</label>
+            <input type="radio" id="lang" name="speak2" value="speak2">
+        <h2>Hindi</h2>
+            <label for="lang">Read</label>
+            <input type="radio" id="lang" name="read3" value="read3">
+            <label for="lang">write</label>
+            <input type="radio" id="lang" name="write3" value="write3">
+            <label for="lang">Speak</label>
+            <input type="radio" id="lang" name="speak3" value="speak3"><br><br>
+            <input type="Submit" name="Submit" id="Submit">
+            <input type="reset" name="reset" id="reset">
+    </FORM>
+
+</body>
+</html>
