@@ -1,0 +1,106 @@
+body {
+    background-image: url(https://images.hdqwalls.com/download/4k-cyberpunk-2077-ps-game-sr-1366x768.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  .established {
+    font-style: italic;
+  }
+  
+h1, h2{
+    font-family: Arial, Helvetica, serif;
+    text-align: center;
+    color: green;
+  }
+h4 {
+    font-family: Arial, Helvetica, serif;
+    color: green;
+  }
+
+  p {
+    color: aqua;
+    text-align: center;
+  }
+  
+  .menu {
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.712);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+    width: 10%;
+  }
+  
+  hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+  }
+  
+  .bottom-line {
+    margin-top: 25px;
+  } 
+  .game p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  .psname, .pcname {
+    text-align: left;
+    width: 75%;
+  }
+  
+  .price {
+    text-align: right;
+    width: 25%;
+  }
+  
+  .comment{
+    background-color: rgba(81, 92, 151, 0.589);
+    color: antiquewhite;
+  }
+  footer p {
+    font-size: 14px;
+    color: red;
+  }
+  
+  .address {
+    margin-bottom: 5px;
+  }
+  
+  a {
+    color: rgb(240, 236, 13);
+  }
+  
+  a:visited {
+    color: rgb(61, 11, 243);
+  }
+  
+  a:hover {
+    color: rgb(36, 194, 31);
+  }
+  
+  a:active {
+    color: rgb(218, 9, 9);
+  }
